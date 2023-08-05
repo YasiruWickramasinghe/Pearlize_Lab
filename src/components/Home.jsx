@@ -9,7 +9,7 @@ const Home = () => {
     >
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          HO<span className="text-yellow-500">ME</span>
+          Ho<span className="text-yellow-500">me</span>
         </h3>
       </div>
     </section>

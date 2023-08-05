@@ -11,7 +11,8 @@ const Navbar = () => {
     // { name: "HIREME", link: "#hireme" },
     { name: "PORTFOLIO", link: "#portfolio" },
     // { name: "EXPERTISE", link: "#expertise" },
-    { name: "TESTIMONIALS", link: "#testimonials" },
+    // { name: "TESTIMONIALS", link: "#testimonials" },
+    { name: "CAREERS", link: "#careers" },
     { name: "CONTACT", link: "#contact" },
   ];
   useEffect(() => {

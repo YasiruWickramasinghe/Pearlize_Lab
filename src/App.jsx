@@ -1,6 +1,6 @@
 import Home from "./components/Home"
 import About from "./components/About";
-import Hireme from "./components/Hireme";
+import Hireus from "./components/Hireus";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -10,6 +10,7 @@ import Testimonials from "./components/Testimonials";
 import Technologies from "./components/Technologies";
 import Portfolio from "./components/Portfolio";
 import Expertise from "./components/Expertise";
+import Careers from "./components/Career";
 
 function App() {
 
@@ -21,10 +22,11 @@ function App() {
       <About />
       <Service/>
       <Technologies/>
-      <Hireme/>
+      <Hireus/>
       <Portfolio/>
       <Expertise/>
       <Testimonials/>
+      <Careers/>
       <Contact />
       <Footer />
     </>
