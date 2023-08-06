@@ -8,6 +8,7 @@ const Service = () => {
         <h3 className="text-4xl font-semibold">
         Our <span className="text-yellow-500">Services</span>
         </h3>
+        {/* three card design, engineering and ai */}
       </div>
         </section>
     );

@@ -30,15 +30,15 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div className="mx-7">
           <h4 className="text-4xl uppercase font-bold">
-          <a href="#home">PEARLIZE <span className="text-yellow-400">LAB</span></a>
+          <a href="#home">PEARL<span className="text-yellow-400">IZE</span></a>
           </h4>
         </div>
         <div
           className={` ${
             sticky ? "md:bg-white/0 bg-white/0 " : "bg-white/0 "
-          } text-white-900 md:block hidden px-1 py-2 font-medium  rounded-bl-full`}
+          } text-white-900 md:block hidden px-1 py-2 rounded-bl-full`}
         >
-          <ul className="flex items-center py-2 text-lg">
+          <ul className="flex items-center py-2 text-sm">
             {menuLinks?.map((menu, i) => (
               <li key={i} className="px-6 hover:text-yellow-400">
                 <a href={menu?.link}>{menu?.name}</a>
