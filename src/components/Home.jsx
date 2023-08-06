@@ -33,11 +33,11 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex py-5 px-5 md:flex-row flex-col items-center"
+      className="min-h-screen flex py-5 px-20 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
         <div className="md:text-left text-center">
-          <h1 className="md:text-4xl text-2xl py-1 md:leading-normal leading-10 text-white font-bold">Empowering Innovations Through Code<br></br> Crafting Digital Solutions with Precision<br></br> <span className="text-yellow-500 md:text-2xl text-sm">Your Vision, Our Expertise, Limitless Possibilities.</span></h1>
+          <h1 className="md:text-3xl text-2xl py-1 md:leading-normal leading-10 text-white font-bold">Empowering Innovations Through Code<br></br> Crafting Digital Solutions with Precision<br></br> <span className="text-yellow-500 md:text-2xl text-sm">Your Vision, Our Expertise, Limitless Possibilities.</span></h1>
           <div className="text-1xl flex mt-5 items-center justify-center md:justify-start gap-5">
             {buttons?.map((content) => (
               <button
