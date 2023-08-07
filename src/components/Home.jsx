@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import shape1 from "../assets/images/shape_2.png";
 
 const Home = () => {
 
@@ -56,7 +57,7 @@ const Home = () => {
         </div>
       </div>
       <div className="flex-1 ">
-        {/* <img src={hero} alt="" className="md:w-11/12 h-full object-cover" /> */}
+        <img src={shape1} alt="" className="md:w-11/12 h-full object-cover" />
       </div>
     </section>
   );
