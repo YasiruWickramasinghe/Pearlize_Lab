@@ -6,3 +6,4 @@ Pealize Lab Your destination for transformative tech solutions. We excel in web,
 
 ### npm install
 ### npm run dev
+### npm run test
